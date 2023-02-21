@@ -11,7 +11,7 @@ for (i = 48 ; i <= 57 ; i++)
 {
 for (j = 48 ; j <= 56 ; j++)
 {
-for (k = i ; k <= 57 ; k++)
+for (k = 48 ; k <= 57 ; k++)
 {
 for (p = j + 1 ; p <= 57 ; p++)
 {
@@ -32,4 +32,3 @@ putchar(' ');
 putchar('\n');
 return (0);
 }
-
