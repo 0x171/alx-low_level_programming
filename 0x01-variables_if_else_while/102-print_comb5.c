@@ -13,7 +13,7 @@ for (j = 48 ; j <= 56 ; j++)
 {
 for (k = 48 ; k <= 57 ; k++)
 {
-for (p = 48 ; p <= 57 ; p++)
+for (p = j + 1 ; p <= 57 ; p++)
 {
 putchar(i);
 putchar(j);
