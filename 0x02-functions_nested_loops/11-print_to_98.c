@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
-* times_table - Print numbers from n to 98
-* @n: number to be given
-*/
+ * print_to_98 - Print numbers from n to 98
+ * @n: number to be given
+ */
 void print_to_98(int n)
 {
-if(n > 98)
+if (n > 98)
 {
 for (; n >= 98 ; n--)
 {
@@ -35,3 +35,4 @@ printf("%d", n);
 }
 putchar('\n');
 }
+
